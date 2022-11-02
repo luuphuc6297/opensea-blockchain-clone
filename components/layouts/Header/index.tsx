@@ -17,7 +17,7 @@ const headerStyles = {
     headerIcon: `text-[#8a939b] text-3xl font-black px-4 hover:text-white cursor-pointer`,
 };
 
-const Header = () => {
+export const Header = () => {
     return (
         <div className={headerStyles.wrapper}>
             <Link href="/">
@@ -49,5 +49,3 @@ const Header = () => {
         </div>
     );
 };
-
-export default Header;

@@ -25,7 +25,7 @@ const nftStyles = {
     likeIcon: `text-xl mr-2`,
 };
 
-const NFTCard = ({ nftItem, title, listings }: NFTCardProps) => {
+export const NFTCard = ({ nftItem, title, listings }: NFTCardProps) => {
     const [isListed, setIsListed] = React.useState(false);
     const [price, setPrice] = React.useState(0);
 
@@ -81,5 +81,3 @@ const NFTCard = ({ nftItem, title, listings }: NFTCardProps) => {
         </div>
     );
 };
-
-export default NFTCard;
